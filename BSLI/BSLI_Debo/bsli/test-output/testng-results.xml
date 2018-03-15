@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21439" started-at="2018-03-07T09:22:20Z" finished-at="2018-03-07T09:22:41Z">
+    <groups>
+    </groups>
+    <test name="Scenario_1" duration-ms="21439" started-at="2018-03-07T09:22:20Z" finished-at="2018-03-07T09:22:41Z">
+      <class name="com.eapp.Scenarios.TestCase_minorIndian">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.eapp.Scenarios.TestCase_minorIndian@4b9e13df]" name="initializeTestBaseSetup" is-config="true" duration-ms="14173" started-at="2018-03-07T14:52:20Z" finished-at="2018-03-07T14:52:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://203.77.177.245/BSLI/apps/services/www/eapp/desktopbrowser/default/index.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="FAIL" signature="TC_01(java.lang.String)[pri:0, instance:com.eapp.Scenarios.TestCase_minorIndian@4b9e13df]" name="TC_01" duration-ms="7235" started-at="2018-03-07T14:52:34Z" finished-at="2018-03-07T14:52:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC_01]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.relevantcodes.extentreports.ExtentTest.isPathRelative(ExtentTest.java:502)
+	at com.relevantcodes.extentreports.ExtentTest.addScreenCapture(ExtentTest.java:287)
+	at com.eapp.Reporting.Extent_Reporting.Log_Fail(Extent_Reporting.java:46)
+	at com.eapp.Operations.IChamp_LoginPage_Operations.IChamp_Login(IChamp_LoginPage_Operations.java:62)
+	at com.eapp.Scenarios.TestCase_minorIndian.TC_01(TestCase_minorIndian.java:134)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01 -->
+      </class> <!-- com.eapp.Scenarios.TestCase_minorIndian -->
+    </test> <!-- Scenario_1 -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,54 @@
+public static String medicMusDis=//input[contains(@id,'medicMusDis')]
+
+//1. Please advise which joint/s or areas of the body are/were affected
+public static String affBodyAreasInput=//input[contains(@id,'affBodyAreasInput')]
+
+//2. What was the underlying cause (e.g. accident, degeneration, recreational or sporting injury etc.)?
+public static String causeInput=//input[contains(@id,'causeInput')]
+
+//3. When did you first experience symptoms? 
+public static String firstExpDt=//input[contains(@id,'firstExpDt')]
+public static String calendarInpt23 cursorPointer=//span[@class='calendarInpt23 cursorPointer']
+
+//4. a)  Are your symptoms ongoing?  
+public static String symptomsInfo=//input[contains(@id,'symptomsInfo')]
+public static String improving=//*[@id="symptomsImprov"]
+public static String Getting worse=//*[@id="musculoskeletalQuePopup"]
+public static String Unchanged =//*[@id="musculoskeletalQuePopup"]
+
+//b) If you are no-longer experiencing symptoms, when did they last occur?   
+public static String lastOccurDt=//input[contains(@id,'lastOccurDt')]
+//c) Also advise how often or how many times you have ever experienced symptoms and how long the symptoms have lasted on these occasions? 
+public static String noOfExpSymptoms=//input[contains(@id,'noOfExpSymptoms')]
+
+public static String addMedicationName=//input[contains(@id,'addMedicationName')]
+public static String addMedicationDose=//input[contains(@id,'addMedicationDose')]
+public static String addMedicationFreq=//input[contains(@id,'addMedicationFreq')]
+public static String addMedicationDate=//*[@id="addMedicationInfo"]/div[4]/span
+public static String add=//*[@id="addMedicationDetail"]/span/img
+public static String edit=//*[@id="medicationTable"]/tbody/tr[2]/td[5]/span[1]/img
+public static String delete=//*[@id="medicationTable"]/tbody/tr[2]/td[5]/span[2]/img
+
+//Have you ever had any tests or investigations carried out in connection to this condition or been advised to do so in future e.g. x-ray, MRI, CT scan etc.? 
+public static String hadtest=//*[@id="musculoskeletalQuePopup"]/div/div/div/div[2]/div/div/div[7]/div[2]/div/div/div
+public static String addInvestigationName=//input[contains(@id='addInvestigationName')]
+public static String calender=//*[@id="addInvestigationInfo"]/div[2]/span
+public static String addInvestigationResult=//input[contains(@id,'addInvestigationResult')]
+public static String add=//*[@id="addInvestigationDetail"]/span/img;
+public static String edit=//*[@id="investigationTable"]/tbody/tr[2]/td[4]/span[1]/img
+public static String delete=//*[@id="investigationTable"]/tbody/tr[2]/td[4]/span[2]/img
+
+//7. Have you ever had or have been advised to have OPD follow up or hospitalization for this condition? 
+public static String opd=//*[@id="musculoskeletalQuePopup"]/div/div/div/div[2]/div/div/div[8]/div[2]/div/div/div
+public static String date=//*[@id="addAdviseInfo"]/div[1]/span
+public static String procedure=//*[@id="addAdviseProcedure"]
+public static String loc=//*[@id="addAdviseLoc"]
+public static String result=//*[@id="addAdviseResult"]
+public static String edit=//*[@id="adviseTable"]/tbody/tr[2]/td[5]/span[1]/img
+public static String delete=//*[@id="adviseTable"]/tbody/tr[2]/td[5]/span[2]/img
+
+
+//8. Additional information : 
+public static String add=//*[@id="addAdviseDetail"]/span/img
+public static String additionalinfo=//*[@id="musculoskeletalQuePopup"]/div/div/div/div[2]/div/div/div[9]/div[2]/div/div/div
+public static String additionalinformationinput=//*[@id="moreMuscuInfoInput"]

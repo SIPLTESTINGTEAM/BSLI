@@ -1,0 +1,56 @@
+public static String arthrities=//input[contains(@id,'medicArthritis')]
+
+//condition that you are suffering 
+public static String condRheumatoid=//input[contains(@id,'condRheumatoid')]
+public static String condAnkylosing=//input[contains(@id,'condAnkylosing')]
+public static String condReitersSyndrome=//input[contains(@id,'condReitersSyndrome')]
+public static String condPsoriatic=//input[contains(@id,'condPsoriatic')]
+public static STring condOthers=//input[contains(@id,'condOthers')]
+
+// When did you first experience symptoms? 
+public static String fstExpSympDate=//input[contains(@id,'fstExpSympDate')]
+public static String set=//div[@class='dwb dwb0 dwb-e']
+public static String Cancel=//div[@class='dwb dwb1 dwb-e']
+
+// Are these symptoms ongoing
+public static String sympOnGoingCheck=//*[@id="advisorProfilePop"]/div/div/div/div[2]/div/div/div[4]/div[2]/div/div/div
+public static String worseningCheck=//input[contains(@id,'worseningCheck')]
+public static String lastExpSympDate=//input[contains(@id,'lastExpSympDate')]
+
+// Which joints are or have been affected 
+public static String affectedJointsInfo=//input[contains(@id,'affectedJointsInfo')]
+
+// Are your daily activities affected or restricted in any way?
+public static String dailyActAffctCheck=//*[@id="advisorProfilePop"]/div/div/div/div[2]/div/div/div[4]/div[10]/div[2]/div/div/div
+public static String dailyActAffctInpt=//input[contains(@id,'dailyActAffctInpt')]
+
+//Do you use a walking stick or other mobility aid?
+public static String useWalkStickCheck=//*[@id="advisorProfilePop"]/div/div/div/div[2]/div/div/div[4]/div[12]/div[2]/div/div/div
+public static String useWalkStickInpt=//input[contains(@id,'useWalkStickInpt')]
+
+//Have you ever taken or are currently taking medication for this condition
+public static String curTakeMedicineCheck=//*[@id="advisorProfilePop"]/div/div/div/div[2]/div/div/div[5]/div[2]/div/div/div
+public static String medication=//input[contains(id,'medication')]
+public static String currentOrPast=//input[contains(@id,'currentOrPast')]
+public static String dose=//input[contains(@id,'dose')]
+public static String frequency=//input[contains(@id,'frequency')]
+public static String add=//*[@id="addCurMedicineBox"]/div[5]/img
+public static String edit=//*[@id="curMedicineTable"]/tbody/tr[2]/td[5]/span[1]/img
+public static String delete=//*[@id="curMedicineTable"]/tbody/tr[2]/td[5]/span[2]/img
+
+public static String othertreatment=//*[@id="advisorProfilePop"]/div/div/div/div[2]/div/div/div[6]/div[2]/div/div/div
+public static String treatment=//input[conatins(@id,'treatment')]
+public static String location=//input[contains(@id,'location')]
+public static String date=//input[contains(@id,'date')]
+public static String results=//input[contains(@id,'results')]
+public static String add=//*[@id="addTreatmentListBox"]/div[5]/img
+public static String edit=//*[@id="treatmentListTable"]/tbody/tr[2]/td[5]/span[1]/img
+public static String delete=//*[@id="treatmentListTable"]/tbody/tr[2]/td[5]/span[2]/img
+
+//Have you ever been or have been advised OPD follow up or hospitalization for this condition?
+public static String advisedOPDCheck=//*[@id="advisorProfilePop"]/div/div/div/div[2]/div/div/div[7]/div[2]/div/div/div
+public static String advisedOPDInpt=//input[contains(@id,'advisedOPDInpt')]
+public static String systemicManifstCheck=//*[@id="advisorProfilePop"]/div/div/div/div[2]/div/div/div[8]/div[2]/div/div/div
+public static String systemicManifstInpt=//input[contains(@id,'systemicManifstInpt')]
+public static String addInfo=//*[@id="addInfo"]
+

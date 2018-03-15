@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Scenario_1(failed)">
+    <parameter name="TestCase_Name" value="TC_01"/>
+    <parameter name="appURL" value="http://203.77.177.245/BSLI/apps/services/www/eapp/desktopbrowser/default/index.html"/>
+    <parameter name="browserType" value="ie"/>
+    <classes>
+      <class name="com.eapp.Scenarios.TestCase_minorIndian">
+        <methods>
+          <include name="TC_01" invocation-numbers="0"/>
+          <include name="initializeTestBaseSetup"/>
+        </methods>
+      </class> <!-- com.eapp.Scenarios.TestCase_minorIndian -->
+    </classes>
+  </test> <!-- Scenario_1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

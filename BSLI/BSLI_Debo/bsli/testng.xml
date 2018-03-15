@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">  
+  <test name="Scenario_1" allow-return-values="true">
+<parameter name="browserType" value="ie" />
+<parameter name="appURL" value="http://203.77.177.245/BSLI/apps/services/www/eapp/desktopbrowser/default/index.html"/> 
+<parameter name="TestCase_Name" value="TC_01" />
+    <classes>
+      <class name="com.eapp.Scenarios.TestCase_minorIndian"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
